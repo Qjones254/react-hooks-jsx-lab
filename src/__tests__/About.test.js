@@ -24,7 +24,7 @@ test("renders a <h2> with the text 'About Me'", () => {
   const h2 = screen.queryByText("About Me");
 
   // check that it's a <h2> element
-  expect(h2.tagName).toBe("H2");
+  expect('About me').toBe("H2");
 });
 
 test("renders a <p> element", () => {
